@@ -38,7 +38,7 @@ namespace doorPlateBack.Controllers
         {
             try
             {
-                IEnumerable<User> users = db.Users.Where(a => !a.Deleted).OrderBy(a => a.LastName).ToList();
+                IEnumerable<User> users = db.Users.Where(a => !a.Deleted).OrderBy(a => a.Name).ToList();
                 return Ok(users);
             }
             catch (Exception ex)
@@ -62,7 +62,7 @@ namespace doorPlateBack.Controllers
         }
 
         [HttpPost("[action]")]
-        public ActionResult<User> AddUser([FromForm] User user)
+        public ActionResult<User> AddUser(User user)
         {
             try
             {
@@ -77,7 +77,7 @@ namespace doorPlateBack.Controllers
         }
 
         [HttpPost("[action]")]
-        public ActionResult<User> EditUser([FromForm] User user)
+        public ActionResult<User> EditUser(User user)
         {
             try
             {
@@ -92,7 +92,7 @@ namespace doorPlateBack.Controllers
         }
 
         [HttpPost("[action]")]
-        public ActionResult DeleteUser([FromForm] User user)
+        public ActionResult DeleteUser(User user)
         {
             try
             {
