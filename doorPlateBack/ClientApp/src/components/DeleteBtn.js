@@ -13,7 +13,14 @@ export function DeleteBtn({ userId, deleteUserCallBack }) {
             })
     };
 
+    const print = () => {
+        window.print()
+    };
+
     return (
-        <Button type="primary" ghost onClick={deleteUser}>Удалить</Button>
+        <div className="clearfix addBtnWrap">
+            <Button type="primary" onClick={print} className="printBtn">Напечатать</Button>
+            <Button type="primary" ghost onClick={deleteUser}>Удалить</Button>
+        </div>
     );
 };
