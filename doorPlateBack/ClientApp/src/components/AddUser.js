@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Button, Modal, Form, Input } from 'antd';
 import axios from 'axios'
 
@@ -44,7 +44,7 @@ export function AddUser({ addUserCallBack }) {
 
     return (
         <>
-            <div className="clearfix addBtnWrap">
+            <div className="addBtnWrap">
                 <Button
                     type="primary"
                     onClick={showModal}

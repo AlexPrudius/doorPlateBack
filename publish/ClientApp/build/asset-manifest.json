@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eeca17f9.css",
+    "main.js": "/static/js/main.bafaa3f3.js",
+    "static/media/he_cn__b-webfont.svg": "/static/media/he_cn__b-webfont.6a345104d7727fff74a3.svg",
+    "static/media/helioscondblack-webfont.svg": "/static/media/helioscondblack-webfont.0abe30c6757c197b3c85.svg",
+    "static/media/helioscond-webfont.svg": "/static/media/helioscond-webfont.cc4af0f8d9107c48b1b4.svg",
+    "static/media/he_cn__b-webfont.ttf": "/static/media/he_cn__b-webfont.695eee97209bf24624e5.ttf",
+    "static/media/helioscondblack-webfont.ttf": "/static/media/helioscondblack-webfont.6cef917264a51859c837.ttf",
+    "static/media/helioscond-webfont.ttf": "/static/media/helioscond-webfont.aff54b5a5742203b9a20.ttf",
+    "static/media/he_cn__b-webfont.woff": "/static/media/he_cn__b-webfont.a3c81c717fe58ad11b64.woff",
+    "static/media/helioscondblack-webfont.woff": "/static/media/helioscondblack-webfont.49b1e54f2249ac5d103c.woff",
+    "static/media/helioscond-webfont.woff": "/static/media/helioscond-webfont.263b82d65b70ec21ad99.woff",
+    "static/media/helioscondblack-webfont.eot": "/static/media/helioscondblack-webfont.8b3bbaa82090f35ae119.eot",
+    "index.html": "/index.html",
+    "main.eeca17f9.css.map": "/static/css/main.eeca17f9.css.map",
+    "main.bafaa3f3.js.map": "/static/js/main.bafaa3f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eeca17f9.css",
+    "static/js/main.bafaa3f3.js"
+  ]
+}

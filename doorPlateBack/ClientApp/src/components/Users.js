@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+ï»¿import React, { useEffect, useState } from 'react'
 import { Collapse, Alert } from 'antd';
 import axios from 'axios'
 import { DeleteBtn } from './DeleteBtn'
@@ -15,37 +15,37 @@ export function Users({ addedUser }) {
                         key: item.id,
                         label: item.name,
                         children:
-                        <div>
-                            <Alert message="Ïðè ïå÷àòè âûáðàòü àëüáîìíóþ ðàñêëàäêó è ðàçìåð áóìàãè À3" type="info" className="customAlert"/>
-                            <DeleteBtn userId={item.id} deleteUserCallBack={deleteUserCallBack}></DeleteBtn>
-                            <div className="wrapper">
-                                <div className="rectangle rectangle_white">
-                                    <div className="tablet_department">
-                                        {item.branch}
-                                    </div>
-                                    <div className="tablet_post">
-                                        {item.post}
-                                    </div>
-                                    <div className="tablet_name">
-                                        {item.name}
-                                    </div>
-                                </div>
-                            </div>
-                            <br></br>
-                            <div className="wrapper wrapper2">
-                                <div className="rectangle rectangle_blue">
-                                    <div className="tablet_department">
-                                        {item.branch}
-                                    </div>
-                                    <div className="tablet_post">
-                                        {item.post}
-                                    </div>
-                                    <div className="tablet_name">
-                                        {item.name}
+                            <div>
+                                <Alert message="ÐŸÑ€Ð¸ Ð¿ÐµÑ‡Ð°Ñ‚Ð¸ Ð²Ñ‹Ð±Ñ€Ð°Ñ‚ÑŒ Ð°Ð»ÑŒÐ±Ð¾Ð¼Ð½ÑƒÑŽ Ñ€Ð°ÑÐºÐ»Ð°Ð´ÐºÑƒ Ð¸ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð±ÑƒÐ¼Ð°Ð³Ð¸ Ð3" type="info" className="customAlert" />
+                                <DeleteBtn userId={item.id} deleteUserCallBack={deleteUserCallBack}></DeleteBtn>
+                                <div className="wrapper">
+                                    <div className="rectangle rectangle_white">
+                                        <div className="tablet_department">
+                                            {item.branch}
+                                        </div>
+                                        <div className="tablet_post">
+                                            {item.post}
+                                        </div>
+                                        <div className="tablet_name">
+                                            {item.name}
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div >,
+                                <br></br>
+                                <div className="wrapper wrapper2">
+                                    <div className="rectangle rectangle_blue">
+                                        <div className="tablet_department">
+                                            {item.branch}
+                                        </div>
+                                        <div className="tablet_post">
+                                            {item.post}
+                                        </div>
+                                        <div className="tablet_name">
+                                            {item.name}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>,
                     }
                     objects.push(object)
                 });
@@ -68,6 +68,7 @@ export function Users({ addedUser }) {
     const onChange = (key) => {
         console.log(key);
     };
+
     return (
         <>
             {users && users.length > 0 &&

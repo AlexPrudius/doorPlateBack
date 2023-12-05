@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\projects\doorPlateBack\publish</_PublishTargetUrl>
+    <History>True|2023-12-04T17:45:04.8042967Z;False|2023-12-04T22:28:08.1328933+05:00;False|2023-12-04T22:17:19.4766330+05:00;False|2023-12-04T21:55:22.9644344+05:00;False|2023-12-04T21:47:16.6241010+05:00;False|2023-12-04T21:45:46.2838829+05:00;False|2023-12-04T21:41:43.7388644+05:00;False|2023-12-04T21:39:55.4472310+05:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

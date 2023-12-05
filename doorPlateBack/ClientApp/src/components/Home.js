@@ -18,4 +18,4 @@ export function Home() {
             <Users addedUser={data}></Users>
         </>
     );
-}
+ }

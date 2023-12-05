@@ -1,4 +1,4 @@
-import React from 'react';
+п»їimport React from 'react';
 import { Button } from 'antd';
 import axios from 'axios'
 
@@ -19,8 +19,8 @@ export function DeleteBtn({ userId, deleteUserCallBack }) {
 
     return (
         <div className="clearfix addBtnWrap">
-            <Button type="primary" onClick={print} className="printBtn">Напечатать</Button>
-            <Button type="primary" ghost onClick={deleteUser}>Удалить</Button>
+            <Button type="primary" onClick={print} className="printBtn">РџРµС‡Р°С‚СЊ</Button>
+            <Button type="primary" ghost onClick={deleteUser}>РЈРґР°Р»РёС‚СЊ</Button>
         </div>
     );
 };
